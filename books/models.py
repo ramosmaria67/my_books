@@ -1,6 +1,5 @@
 from django.db import models
 
-# New seccion of the code added (To get All URL Generated).
 class Category(models.Model):
     title = models.CharField(max_length=250)
    
